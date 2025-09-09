@@ -185,11 +185,11 @@ photozip = 'https://envs.sh/fH.jpg/IMG20250803719.jpg'
 
 
 # Inline keyboard for start command
-BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="https://t.me/MrFrontMan001")]])
+BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="t.me/AshuRajput69")]])
 keyboard = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/MrFrontMan001")        ],
+            InlineKeyboardButton(text="🛠️ Help", url="t.me/AshuRajput69")        ],
     ]
 )
 
@@ -313,10 +313,10 @@ async def start(bot: Client, m: Message):
             if not is_authorized:
                 await m.reply_photo(
                     photo=photologo,
-                    caption="**Mʏ Nᴀᴍᴇ [DRM Wɪᴢᴀʀᴅ 🦋](https://t.me/DRM_Wizardbot)\n\nYᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀᴄᴄᴇꜱꜱ ᴛᴏ ᴜꜱᴇ ᴛʜɪꜱ ʙᴏᴛ\nCᴏɴᴛᴀᴄᴛ [⌯ FʀᴏɴᴛMᴀɴ | ×͜× |](https://t.me/Mrfrontman001) ғᴏʀ ᴀᴄᴄᴇꜱꜱ**",
+                    caption="**Mʏ Nᴀᴍᴇ [DRM ASHISH 🦋](https://t.me/AshuBhaiPro_Robot)\n\nYᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀᴄᴄᴇꜱꜱ ᴛᴏ ᴜꜱᴇ ᴛʜɪꜱ ʙᴏᴛ\nCᴏɴᴛᴀᴄᴛ [🕊️⃝🗽𝐀𝐬𝐡𝐮❥⟵🕊️⃝❤️](t.me/AshuRajput69) ғᴏʀ ᴀᴄᴄᴇꜱꜱ**",
                     reply_markup=InlineKeyboardMarkup([
     [
-        InlineKeyboardButton("⌯ FʀᴏɴᴛMᴀɴ | ×͜× |", url="https://t.me/MrFrontMan001")
+        InlineKeyboardButton("🕊️⃝🗽𝐀𝐬𝐡𝐮❥⟵🕊️⃝❤️", url="t.me/AshuRajput69")
     ],
     [
         InlineKeyboardButton("ғᴇᴀᴛᴜʀᴇꜱ 🪔", callback_data="help"),
@@ -370,7 +370,7 @@ auth_filter = filters.create(auth_check_filter)
 @bot.on_message(~auth_filter & filters.private & filters.command)
 async def unauthorized_handler(client, message: Message):
     await message.reply(
-        "<b>Mʏ Nᴀᴍᴇ [DRM Wɪᴢᴀʀᴅ 🦋](https://t.me/DRM_Wizardbot)</b>\n\n"
+        "<b>Mʏ Nᴀᴍᴇ [DRM ASHISH 🦋](https://t.me/AshuBhaiPro_Robot)</b>\n\n"
         "<blockquote>You need to have an active subscription to use this bot.\n"
         "Please contact admin to get premium access.</blockquote>",
         reply_markup=InlineKeyboardMarkup([[
@@ -1039,7 +1039,7 @@ async def txt_handler(bot: Client, m: Message):
         f"├ 🖼️ ɪᴍᴀɢᴇꜱ : <code>{img_count}</code>\n"
         "╰────────────────────────────\n\n"
         
-        "<i>ᴇxᴛʀᴀᴄᴛᴇᴅ ʙʏ ᴡɪᴢᴀʀᴅ ʙᴏᴛꜱ 🤖</i>"
+        "<i>ᴇxᴛʀᴀᴄᴛᴇᴅ ʙʏ 𝙰𝚂𝙷𝙸𝚂𝙷 ʙᴏᴛꜱ 🤖</i>"
     )
 )
 
