@@ -195,9 +195,9 @@ keyboard = InlineKeyboardMarkup(
 
 # Image URLs for the random image feature
 image_urls = [
-    "https://envs.sh/Nf.jpg/IMG20250803704.jpg",
-    "https://envs.sh/Nf.jpg/IMG20250803704.jpg",
-    "https://envs.sh/Nf.jpg/IMG20250803704.jpg",
+    "https://i.ibb.co/JDcC1wY/photo-2025-09-09-01-21-32-7547893462050275352.jpg",
+    "https://i.ibb.co/JDcC1wY/photo-2025-09-09-01-21-32-7547893462050275352.jpg",
+    "https://i.ibb.co/JDcC1wY/photo-2025-09-09-01-21-32-7547893462050275352.jpg",
     # Add more image URLs as needed
 ]
 
@@ -313,7 +313,7 @@ async def start(bot: Client, m: Message):
             if not is_authorized:
                 await m.reply_photo(
                     photo=photologo,
-                    caption="**Mʏ Nᴀᴍᴇ [DRM ASHISH 🦋](https://t.me/AshuBhaiPro_Robot)\n\nYᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀᴄᴄᴇꜱꜱ ᴛᴏ ᴜꜱᴇ ᴛʜɪꜱ ʙᴏᴛ\nCᴏɴᴛᴀᴄᴛ [🕊️⃝🗽𝐀𝐬𝐡𝐮❥⟵🕊️⃝❤️](t.me/AshuRajput69) ғᴏʀ ᴀᴄᴄᴇꜱꜱ**",
+                    caption="**Mʏ Nᴀᴍᴇ [DRM ASHISH 🦋](https://t.me/AshuRajput69)\n\nYᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀᴄᴄᴇꜱꜱ ᴛᴏ ᴜꜱᴇ ᴛʜɪꜱ ʙᴏᴛ\nCᴏɴᴛᴀᴄᴛ [🕊️⃝🗽𝐀𝐬𝐡𝐮❥⟵🕊️⃝❤️](t.me/AshuRajput69) ғᴏʀ ᴀᴄᴄᴇꜱꜱ**",
                     reply_markup=InlineKeyboardMarkup([
     [
         InlineKeyboardButton("🕊️⃝🗽𝐀𝐬𝐡𝐮❥⟵🕊️⃝❤️", url="t.me/AshuRajput69")
@@ -342,7 +342,7 @@ async def start(bot: Client, m: Message):
                 caption=f"**Mʏ ᴄᴏᴍᴍᴀɴᴅꜱ ғᴏʀ ʏᴏᴜ [{m.from_user.first_name} ](tg://settings)**\n\n{commands_list}",
                 reply_markup=InlineKeyboardMarkup([
     [
-        InlineKeyboardButton("⌯ FʀᴏɴᴛMᴀɴ | ×͜× |", url="https://t.me/MrFrontMan001")
+        InlineKeyboardButton("🕊️⃝🗽𝐀𝐬𝐡𝐮❥⟵🕊️⃝❤️", url="t.me/AshuRajput69")
     ],
     [
         InlineKeyboardButton("ғᴇᴀᴛᴜʀᴇꜱ 🪔", callback_data="help"),
@@ -370,11 +370,11 @@ auth_filter = filters.create(auth_check_filter)
 @bot.on_message(~auth_filter & filters.private & filters.command)
 async def unauthorized_handler(client, message: Message):
     await message.reply(
-        "<b>Mʏ Nᴀᴍᴇ [DRM ASHISH 🦋](https://t.me/AshuBhaiPro_Robot)</b>\n\n"
+        "<b>Mʏ Nᴀᴍᴇ [DRM ASHISH 🦋](https://t.me/AshuRajput69)</b>\n\n"
         "<blockquote>You need to have an active subscription to use this bot.\n"
         "Please contact admin to get premium access.</blockquote>",
         reply_markup=InlineKeyboardMarkup([[
-            InlineKeyboardButton("💫 Get Premium Access", url="https://t.me/MrFrontMan001")
+            InlineKeyboardButton("💫 Get Premium Access", url="t.me/AshuRajput69")
         ]])
     )
 
